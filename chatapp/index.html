@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's Talk - Realtime Chat Application</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap" rel="stylesheet">
+    <script src="/socket.io/socket.io.js" defer></script>
+    <script src="/js/client.js" defer></script>
+</head>
+<body>
+    <navbar class="nav">
+        Let's Talk..!
+    </navbar>
+    <hr>
+
+    <div class="dashboard">
+        <div class="people">
+           <div class="heading">
+            <h2>People</h2>
+           </div>
+           <ul class="classlist">
+              
+           </ul>
+        </div>
+        <div class="chat">
+            
+            <div class="container">
+                <div class="userjoined"></div>
+                
+            </div>
+            <div class="send">
+                
+                    <input type="text" name="message" class="input" placeholder="Type a message">
+                    <button class="bt" type="button">Send</button>
+                
+                
+            </div>
+        </div>
+        </div>
+        
+    
+</body>
+</html>
+
